@@ -77,8 +77,9 @@ tmpclaude-*/
 /*.xlsx
 /*.docx
 
-(AI學習資料)TWIBM_RAG.xlsx
-Deep\ GraphRAG\ DW‑GRPO\ 微調實現計畫與整合方案.docx
+# (legacy examples; already covered by the root-only patterns above)
+# (AI學習資料)TWIBM_RAG.xlsx
+# Deep GraphRAG DW‑GRPO 微調實現計畫與整合方案.docx
 
 # --- Build logs / local outputs ---
 build.log

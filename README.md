@@ -21,6 +21,13 @@
 - `RAG_DATA/`：主要資料集（多為圖片，需要 OCR）
 - `docs/`：任務追蹤與設計文件（例如 `docs/plans/2026-02-03-irs-design.md`）
 
+### 題庫 / 評測資產
+
+為了方便重現 benchmark / supervised SFT，本 repo 會直接包含小型題庫與 schema（體積約數 MB 等級）：
+- `docs/question_v1.json`、`docs/question_v2.json`
+- `docs/eval_sets/question_v2_dev20.json`、`docs/eval_sets/question_v2_dev100.json`
+- `docs/question.schema.json`
+
 ---
 
 ## 快速啟動（Docker，建議）
