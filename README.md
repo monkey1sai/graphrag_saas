@@ -23,6 +23,20 @@
 
 ## 快速啟動（Docker，建議）
 
+### 先決條件
+
+- 已安裝 Docker Desktop（含 `docker compose`）
+- 已安裝 Git LFS（用來下載/推送權重檔）
+
+### Clone 後先拉 LFS 權重
+
+本 repo 內的 `*.safetensors` 權重使用 Git LFS 管理；clone 完請執行：
+
+```powershell
+git lfs install
+git lfs pull
+```
+
 在 repo 根目錄執行：
 
 ```powershell
@@ -32,6 +46,15 @@ docker compose -f .\graphrag_saas\docker-compose.yml up -d --build
 預設會：
 - 將 `RAG_DATA/` 以唯讀掛載到容器 `/data/RAG_DATA`
 - 將索引與報告落在 `graphrag_saas/backend/data/`、`graphrag_saas/backend/reports/`（可持久化）
+
+注意：`RAG_DATA/` 不會跟著 repo 一起發佈（避免把大型原始資料推上 GitHub）。
+- 你需要自行在 repo 根目錄準備 `RAG_DATA/`（或改用環境變數覆寫 `DATASET_PATH`）
+- 若沒有資料集，`/ingest` 會找不到輸入來源
+
+### 常用檢查
+
+- Swagger UI：`http://localhost:8000/docs`
+- 健康檢查：`GET http://localhost:8000/health`
 
 ---
 
@@ -51,15 +74,34 @@ docker compose -f .\graphrag_saas\docker-compose.yml up -d --build
 
 ---
 
+## Docker 參數覆寫（建議用 .env）
+
+`graphrag_saas/docker-compose.yml` 預設 teacher provider 指向內網 Ollama；一般需要依你的環境調整。
+
+在 repo 根目錄新增 `.env`（不建議提交），例如：
+
+```env
+TEACHER_PROVIDER=ollama
+OLLAMA_BASE_URL=http://127.0.0.1:11434
+OLLAMA_MODEL=qwen3:latest
+
+# 若要用標註題庫做 supervised SFT，可指定：
+# SFT_SUPERVISED_QUESTIONS_PATH=/app/eval_docs/question_v2.json
+```
+
+然後照原本方式啟動 compose 即會自動讀取 `.env`。
+
 ## 本機啟動（非 Docker）
 
-注意：OCR 需要本機可執行的 Tesseract（`tesseract.exe` 在 PATH）。
+注意：
+- OCR 需要本機可執行的 Tesseract（`tesseract.exe` 在 PATH）。
+- 這個專案偏向用 Docker 跑（依賴較多）；若要本機跑，請自行建立 venv 並安裝依賴。
 
 ```powershell
 cd .\graphrag_saas\backend
 
-# 安裝依賴（遵守專案規範：使用 uv + .venv）
-..\..\.venv\Scripts\python.exe -m uv pip install -r .\requirements.txt
+python -m venv ..\..\.venv
+..\..\.venv\Scripts\python.exe -m pip install -r .\requirements.txt
 
 ..\..\.venv\Scripts\python.exe -m uvicorn app:app --host 0.0.0.0 --port 8000
 ```
