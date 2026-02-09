@@ -1,0 +1,5 @@
+# GPU-only optional deps for Phase 4 RL (QLoRA)
+# Install via Dockerfile.gpu build arg INSTALL_BNB=1.
+
+# QLoRA 4-bit quantization backend
+bitsandbytes==0.43.3

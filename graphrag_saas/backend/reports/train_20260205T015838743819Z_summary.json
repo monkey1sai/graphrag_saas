@@ -1,0 +1,18 @@
+{
+  "job_id": "20260205T015838743819Z",
+  "stage": "SFT",
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "device": "cuda",
+  "steps": 400,
+  "final_loss": 0.00517305638641119,
+  "runtime": {
+    "torch": "2.2.2",
+    "cuda_available": true,
+    "use_4bit_requested": true,
+    "bitsandbytes": "0.43.3",
+    "bitsandbytes_import_ok": true
+  },
+  "artifacts": {
+    "sft_adapter_path": "/app/reports/train_20260205T015838743819Z_sft_adapter"
+  }
+}

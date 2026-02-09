@@ -1,0 +1,5377 @@
+[
+  {
+    "id": "Q0247",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0940",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0218",
+    "question": "針對豪宅社區內的「鍍鈦金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "鍍鈦金屬",
+        "detailed_description": [
+          "清潔步驟：使用專用清潔亮光劑 -> 同方向均勻塗抹 -> 待乾燥後以濕布擦拭",
+          "禁忌：嚴禁使用刮刀或菜瓜布"
+        ],
+        "original_evidence": "拾、清潔維護人員...(12)金屬保養（鍍鈦）：1.需購買鍍鈦專用清潔亮光劑...2.同ㄧ方向均勻的塗抹...4.切勿用刮刀類尖銳物體刮除或菜瓜布刷洗。",
+        "predicted_questions": [
+          "鍍鈦金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0877",
+    "question": "在 TWIBM 的組織架構中，「社區經理」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "人力資源部/管委會",
+        "main_topic": "人事管理",
+        "sub_topic": "社區經理",
+        "detailed_description": [
+          "主要職掌：每日批閱社區九大簿冊、重大修繕發包及驗收、執行住戶及管委會交辦事項、年度管理工作計劃制定",
+          "證照要求：事務管理證照、設備安全證照、防火管理證照"
+        ],
+        "original_evidence": "壹、社區經理...一、任用專業證照資格：領有中央政府之許可證照者(事務、設備、防火)...二、工作職掌：(1)每日批閱社區九大簿冊...(5)重大修繕發包及驗收...(15)年度管理工作計劃制定。",
+        "predicted_questions": [
+          "社區經理的考核標準是什麼？",
+          "如何應徵社區經理？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0629",
+    "question": "在 TWIBM 的組織架構中，「迎賓哨保全」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "保全組/安管中心",
+        "main_topic": "人事管理",
+        "sub_topic": "迎賓哨保全",
+        "detailed_description": [
+          "主要職掌：大廳前廊警戒、來訪賓客身份辨識、貴賓車輛迎賓服務、行李提送服務",
+          "證照要求：保全護照"
+        ],
+        "original_evidence": "參、迎賓哨...工作職掌：(1)負責大廳前廊警戒與大廳出入口處來訪賓客身份辨識。(2)協助貴賓車輛之停放...(6)負責貴賓進入社區之行李提送服務。",
+        "predicted_questions": [
+          "迎賓哨保全的考核標準是什麼？",
+          "如何應徵迎賓哨保全？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0345",
+    "question": "在 TWIBM 的組織架構中，「吧台秘書」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "餐飲服務部",
+        "main_topic": "人事管理",
+        "sub_topic": "吧台秘書",
+        "detailed_description": [
+          "主要職掌：社區咖啡廳客服執行、進貨銷貨庫存管理、新菜單定期提出、使用情形統計公告",
+          "證照要求：餐飲相關經驗"
+        ],
+        "original_evidence": "陸、吧台秘書...工作職掌：社區咖啡廳之客服專業工作執行...社區咖啡廳之進貨、銷貨、與庫存管理...定期提出新菜單。",
+        "predicted_questions": [
+          "吧台秘書的考核標準是什麼？",
+          "如何應徵吧台秘書？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0935",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0947",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0587",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0087",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0339",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0159",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0499",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0367",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0875",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0803",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0855",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0859",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0883",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0987",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0943",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0195",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0343",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0035",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0755",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0675",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0311",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0527",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0523",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0991",
+    "question": "當發生「電梯受困」狀況時，現場人員應採取的標準緊急應變步驟為何？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "安管/機電組",
+        "main_topic": "緊急應變",
+        "sub_topic": "電梯受困",
+        "detailed_description": [
+          "安撫乘客保持鎮靜",
+          "聯絡維保廠商",
+          "切勿強行開啟廂門",
+          "若長時間停電需啟動緊急措施"
+        ],
+        "original_evidence": "壹、社區經理...(五)緊急應變處置...狀況：電梯故障乘客被困...處置：1.先安撫車廂內人員保持鎮靜...2.立即與電梯維護保養公司連絡...若較長時間之停電...先救出乘客。",
+        "predicted_questions": [
+          "發生電梯受困時的通報層級為何？",
+          "事後報告書應包含哪些內容？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "電梯受困"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0256",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0976",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0056",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0548",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0860",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0412",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0920",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0136",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0364",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0440",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0252",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0964",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0212",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0932",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0824",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0740",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0024",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0836",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0616",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0624",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0888",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0572",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0968",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0224",
+    "question": "請解釋 TWIBM 的「Golden Key」具體內容及其對豪宅服務的價值。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "業主/管理顧問",
+        "main_topic": "服務方案特色",
+        "sub_topic": "Golden Key",
+        "detailed_description": [
+          "最高服務等級認證",
+          "結合飯店式管理",
+          "全天候業主服務中心"
+        ],
+        "original_evidence": "第一章...建構GOLDEN KEY金鑰最高服務等級...建立專業服務細節之評鑑...第四節 Golden Key金鑰級物業服務運作方案...特設禮賓式服務。",
+        "predicted_questions": [
+          "Golden Key如何落實於日常管理？",
+          "與其他物業公司的差異為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "TWIBM高級豪宅物業服務管理顧問服務方案.docx",
+              "page": 1,
+              "anchors": [
+                "Golden Key"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0226",
+    "question": "針對豪宅社區內的「不鏽鋼金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "不鏽鋼金屬",
+        "detailed_description": [
+          "清潔步驟：清除表面泥塊塵土 -> 使用不鏽鋼油擦拭 -> 防止生鏽",
+          "禁忌：切勿用利器或菜瓜布刷洗，以免刮傷"
+        ],
+        "original_evidence": "拾、清潔維護人員...(11)金屬保養（不鏽鋼）：1.不鏽鋼清潔首先需將表面泥塊、塵土刮除...2.使用不鏽鋼油以乾布擦拭...4.切勿用利器或菜瓜布刷洗，以免金屬表面刮傷。",
+        "predicted_questions": [
+          "不鏽鋼金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0762",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0934",
+    "question": "針對豪宅社區內的「不鏽鋼金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "不鏽鋼金屬",
+        "detailed_description": [
+          "清潔步驟：清除表面泥塊塵土 -> 使用不鏽鋼油擦拭 -> 防止生鏽",
+          "禁忌：切勿用利器或菜瓜布刷洗，以免刮傷"
+        ],
+        "original_evidence": "拾、清潔維護人員...(11)金屬保養（不鏽鋼）：1.不鏽鋼清潔首先需將表面泥塊、塵土刮除...2.使用不鏽鋼油以乾布擦拭...4.切勿用利器或菜瓜布刷洗，以免金屬表面刮傷。",
+        "predicted_questions": [
+          "不鏽鋼金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0142",
+    "question": "針對豪宅社區內的「不鏽鋼金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "不鏽鋼金屬",
+        "detailed_description": [
+          "清潔步驟：清除表面泥塊塵土 -> 使用不鏽鋼油擦拭 -> 防止生鏽",
+          "禁忌：切勿用利器或菜瓜布刷洗，以免刮傷"
+        ],
+        "original_evidence": "拾、清潔維護人員...(11)金屬保養（不鏽鋼）：1.不鏽鋼清潔首先需將表面泥塊、塵土刮除...2.使用不鏽鋼油以乾布擦拭...4.切勿用利器或菜瓜布刷洗，以免金屬表面刮傷。",
+        "predicted_questions": [
+          "不鏽鋼金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0942",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0258",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0486",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0214",
+    "question": "針對豪宅社區內的「不鏽鋼金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "不鏽鋼金屬",
+        "detailed_description": [
+          "清潔步驟：清除表面泥塊塵土 -> 使用不鏽鋼油擦拭 -> 防止生鏽",
+          "禁忌：切勿用利器或菜瓜布刷洗，以免刮傷"
+        ],
+        "original_evidence": "拾、清潔維護人員...(11)金屬保養（不鏽鋼）：1.不鏽鋼清潔首先需將表面泥塊、塵土刮除...2.使用不鏽鋼油以乾布擦拭...4.切勿用利器或菜瓜布刷洗，以免金屬表面刮傷。",
+        "predicted_questions": [
+          "不鏽鋼金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0822",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0870",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0690",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0650",
+    "question": "針對豪宅社區內的「鍍鈦金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "鍍鈦金屬",
+        "detailed_description": [
+          "清潔步驟：使用專用清潔亮光劑 -> 同方向均勻塗抹 -> 待乾燥後以濕布擦拭",
+          "禁忌：嚴禁使用刮刀或菜瓜布"
+        ],
+        "original_evidence": "拾、清潔維護人員...(12)金屬保養（鍍鈦）：1.需購買鍍鈦專用清潔亮光劑...2.同ㄧ方向均勻的塗抹...4.切勿用刮刀類尖銳物體刮除或菜瓜布刷洗。",
+        "predicted_questions": [
+          "鍍鈦金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0206",
+    "question": "針對豪宅社區內的「鍍鈦金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "鍍鈦金屬",
+        "detailed_description": [
+          "清潔步驟：使用專用清潔亮光劑 -> 同方向均勻塗抹 -> 待乾燥後以濕布擦拭",
+          "禁忌：嚴禁使用刮刀或菜瓜布"
+        ],
+        "original_evidence": "拾、清潔維護人員...(12)金屬保養（鍍鈦）：1.需購買鍍鈦專用清潔亮光劑...2.同ㄧ方向均勻的塗抹...4.切勿用刮刀類尖銳物體刮除或菜瓜布刷洗。",
+        "predicted_questions": [
+          "鍍鈦金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0950",
+    "question": "針對豪宅社區內的「鍍鈦金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "鍍鈦金屬",
+        "detailed_description": [
+          "清潔步驟：使用專用清潔亮光劑 -> 同方向均勻塗抹 -> 待乾燥後以濕布擦拭",
+          "禁忌：嚴禁使用刮刀或菜瓜布"
+        ],
+        "original_evidence": "拾、清潔維護人員...(12)金屬保養（鍍鈦）：1.需購買鍍鈦專用清潔亮光劑...2.同ㄧ方向均勻的塗抹...4.切勿用刮刀類尖銳物體刮除或菜瓜布刷洗。",
+        "predicted_questions": [
+          "鍍鈦金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0318",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0730",
+    "question": "針對豪宅社區內的「不鏽鋼金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "不鏽鋼金屬",
+        "detailed_description": [
+          "清潔步驟：清除表面泥塊塵土 -> 使用不鏽鋼油擦拭 -> 防止生鏽",
+          "禁忌：切勿用利器或菜瓜布刷洗，以免刮傷"
+        ],
+        "original_evidence": "拾、清潔維護人員...(11)金屬保養（不鏽鋼）：1.不鏽鋼清潔首先需將表面泥塊、塵土刮除...2.使用不鏽鋼油以乾布擦拭...4.切勿用利器或菜瓜布刷洗，以免金屬表面刮傷。",
+        "predicted_questions": [
+          "不鏽鋼金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0842",
+    "question": "針對豪宅社區內的「鍍鈦金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "鍍鈦金屬",
+        "detailed_description": [
+          "清潔步驟：使用專用清潔亮光劑 -> 同方向均勻塗抹 -> 待乾燥後以濕布擦拭",
+          "禁忌：嚴禁使用刮刀或菜瓜布"
+        ],
+        "original_evidence": "拾、清潔維護人員...(12)金屬保養（鍍鈦）：1.需購買鍍鈦專用清潔亮光劑...2.同ㄧ方向均勻的塗抹...4.切勿用刮刀類尖銳物體刮除或菜瓜布刷洗。",
+        "predicted_questions": [
+          "鍍鈦金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0002",
+    "question": "針對豪宅社區內的「鍍鈦金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "鍍鈦金屬",
+        "detailed_description": [
+          "清潔步驟：使用專用清潔亮光劑 -> 同方向均勻塗抹 -> 待乾燥後以濕布擦拭",
+          "禁忌：嚴禁使用刮刀或菜瓜布"
+        ],
+        "original_evidence": "拾、清潔維護人員...(12)金屬保養（鍍鈦）：1.需購買鍍鈦專用清潔亮光劑...2.同ㄧ方向均勻的塗抹...4.切勿用刮刀類尖銳物體刮除或菜瓜布刷洗。",
+        "predicted_questions": [
+          "鍍鈦金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "鍍鈦金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0450",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0270",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0670",
+    "question": "針對豪宅社區內的「不鏽鋼金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "不鏽鋼金屬",
+        "detailed_description": [
+          "清潔步驟：清除表面泥塊塵土 -> 使用不鏽鋼油擦拭 -> 防止生鏽",
+          "禁忌：切勿用利器或菜瓜布刷洗，以免刮傷"
+        ],
+        "original_evidence": "拾、清潔維護人員...(11)金屬保養（不鏽鋼）：1.不鏽鋼清潔首先需將表面泥塊、塵土刮除...2.使用不鏽鋼油以乾布擦拭...4.切勿用利器或菜瓜布刷洗，以免金屬表面刮傷。",
+        "predicted_questions": [
+          "不鏽鋼金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0118",
+    "question": "針對豪宅社區內的「不鏽鋼金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "不鏽鋼金屬",
+        "detailed_description": [
+          "清潔步驟：清除表面泥塊塵土 -> 使用不鏽鋼油擦拭 -> 防止生鏽",
+          "禁忌：切勿用利器或菜瓜布刷洗，以免刮傷"
+        ],
+        "original_evidence": "拾、清潔維護人員...(11)金屬保養（不鏽鋼）：1.不鏽鋼清潔首先需將表面泥塊、塵土刮除...2.使用不鏽鋼油以乾布擦拭...4.切勿用利器或菜瓜布刷洗，以免金屬表面刮傷。",
+        "predicted_questions": [
+          "不鏽鋼金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0106",
+    "question": "針對豪宅社區內的「不鏽鋼金屬」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "不鏽鋼金屬",
+        "detailed_description": [
+          "清潔步驟：清除表面泥塊塵土 -> 使用不鏽鋼油擦拭 -> 防止生鏽",
+          "禁忌：切勿用利器或菜瓜布刷洗，以免刮傷"
+        ],
+        "original_evidence": "拾、清潔維護人員...(11)金屬保養（不鏽鋼）：1.不鏽鋼清潔首先需將表面泥塊、塵土刮除...2.使用不鏽鋼油以乾布擦拭...4.切勿用利器或菜瓜布刷洗，以免金屬表面刮傷。",
+        "predicted_questions": [
+          "不鏽鋼金屬如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "不鏽鋼金屬"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0306",
+    "question": "針對豪宅社區內的「景觀水池」材質，請說明標準的清潔保養流程及禁忌事項。",
+    "expected": {
+      "answer_example": {
+        "target_audience": "清潔維護組",
+        "main_topic": "環境維護標準",
+        "sub_topic": "景觀水池",
+        "detailed_description": [
+          "清潔步驟：每日早晚撈除雜物 -> 定時投氯錠抑制青苔 -> 每月1-2次放水刷洗",
+          "禁忌：保持水質潔淨度"
+        ],
+        "original_evidence": "拾、清潔維護人員...(16)景觀水池清潔：1.需定時投氯錠抑制青苔滋長...每日早晚各一次將池底、水面雜物撈起...2.建議每個月1-2次將水放掉後清洗水池。",
+        "predicted_questions": [
+          "景觀水池如果不慎刮傷如何處理？",
+          "清潔劑的採購規範為何？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "景觀水池"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0937",
+    "question": "在 TWIBM 的組織架構中，「社區經理」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "人力資源部/管委會",
+        "main_topic": "人事管理",
+        "sub_topic": "社區經理",
+        "detailed_description": [
+          "主要職掌：每日批閱社區九大簿冊、重大修繕發包及驗收、執行住戶及管委會交辦事項、年度管理工作計劃制定",
+          "證照要求：事務管理證照、設備安全證照、防火管理證照"
+        ],
+        "original_evidence": "壹、社區經理...一、任用專業證照資格：領有中央政府之許可證照者(事務、設備、防火)...二、工作職掌：(1)每日批閱社區九大簿冊...(5)重大修繕發包及驗收...(15)年度管理工作計劃制定。",
+        "predicted_questions": [
+          "社區經理的考核標準是什麼？",
+          "如何應徵社區經理？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0193",
+    "question": "在 TWIBM 的組織架構中，「社區經理」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "人力資源部/管委會",
+        "main_topic": "人事管理",
+        "sub_topic": "社區經理",
+        "detailed_description": [
+          "主要職掌：每日批閱社區九大簿冊、重大修繕發包及驗收、執行住戶及管委會交辦事項、年度管理工作計劃制定",
+          "證照要求：事務管理證照、設備安全證照、防火管理證照"
+        ],
+        "original_evidence": "壹、社區經理...一、任用專業證照資格：領有中央政府之許可證照者(事務、設備、防火)...二、工作職掌：(1)每日批閱社區九大簿冊...(5)重大修繕發包及驗收...(15)年度管理工作計劃制定。",
+        "predicted_questions": [
+          "社區經理的考核標準是什麼？",
+          "如何應徵社區經理？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0553",
+    "question": "在 TWIBM 的組織架構中，「社區經理」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "人力資源部/管委會",
+        "main_topic": "人事管理",
+        "sub_topic": "社區經理",
+        "detailed_description": [
+          "主要職掌：每日批閱社區九大簿冊、重大修繕發包及驗收、執行住戶及管委會交辦事項、年度管理工作計劃制定",
+          "證照要求：事務管理證照、設備安全證照、防火管理證照"
+        ],
+        "original_evidence": "壹、社區經理...一、任用專業證照資格：領有中央政府之許可證照者(事務、設備、防火)...二、工作職掌：(1)每日批閱社區九大簿冊...(5)重大修繕發包及驗收...(15)年度管理工作計劃制定。",
+        "predicted_questions": [
+          "社區經理的考核標準是什麼？",
+          "如何應徵社區經理？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0493",
+    "question": "在 TWIBM 的組織架構中，「社區經理」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "人力資源部/管委會",
+        "main_topic": "人事管理",
+        "sub_topic": "社區經理",
+        "detailed_description": [
+          "主要職掌：每日批閱社區九大簿冊、重大修繕發包及驗收、執行住戶及管委會交辦事項、年度管理工作計劃制定",
+          "證照要求：事務管理證照、設備安全證照、防火管理證照"
+        ],
+        "original_evidence": "壹、社區經理...一、任用專業證照資格：領有中央政府之許可證照者(事務、設備、防火)...二、工作職掌：(1)每日批閱社區九大簿冊...(5)重大修繕發包及驗收...(15)年度管理工作計劃制定。",
+        "predicted_questions": [
+          "社區經理的考核標準是什麼？",
+          "如何應徵社區經理？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0205",
+    "question": "在 TWIBM 的組織架構中，「社區經理」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "人力資源部/管委會",
+        "main_topic": "人事管理",
+        "sub_topic": "社區經理",
+        "detailed_description": [
+          "主要職掌：每日批閱社區九大簿冊、重大修繕發包及驗收、執行住戶及管委會交辦事項、年度管理工作計劃制定",
+          "證照要求：事務管理證照、設備安全證照、防火管理證照"
+        ],
+        "original_evidence": "壹、社區經理...一、任用專業證照資格：領有中央政府之許可證照者(事務、設備、防火)...二、工作職掌：(1)每日批閱社區九大簿冊...(5)重大修繕發包及驗收...(15)年度管理工作計劃制定。",
+        "predicted_questions": [
+          "社區經理的考核標準是什麼？",
+          "如何應徵社區經理？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0505",
+    "question": "在 TWIBM 的組織架構中，「社區經理」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "人力資源部/管委會",
+        "main_topic": "人事管理",
+        "sub_topic": "社區經理",
+        "detailed_description": [
+          "主要職掌：每日批閱社區九大簿冊、重大修繕發包及驗收、執行住戶及管委會交辦事項、年度管理工作計劃制定",
+          "證照要求：事務管理證照、設備安全證照、防火管理證照"
+        ],
+        "original_evidence": "壹、社區經理...一、任用專業證照資格：領有中央政府之許可證照者(事務、設備、防火)...二、工作職掌：(1)每日批閱社區九大簿冊...(5)重大修繕發包及驗收...(15)年度管理工作計劃制定。",
+        "predicted_questions": [
+          "社區經理的考核標準是什麼？",
+          "如何應徵社區經理？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0601",
+    "question": "在 TWIBM 的組織架構中，「社區經理」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "人力資源部/管委會",
+        "main_topic": "人事管理",
+        "sub_topic": "社區經理",
+        "detailed_description": [
+          "主要職掌：每日批閱社區九大簿冊、重大修繕發包及驗收、執行住戶及管委會交辦事項、年度管理工作計劃制定",
+          "證照要求：事務管理證照、設備安全證照、防火管理證照"
+        ],
+        "original_evidence": "壹、社區經理...一、任用專業證照資格：領有中央政府之許可證照者(事務、設備、防火)...二、工作職掌：(1)每日批閱社區九大簿冊...(5)重大修繕發包及驗收...(15)年度管理工作計劃制定。",
+        "predicted_questions": [
+          "社區經理的考核標準是什麼？",
+          "如何應徵社區經理？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0133",
+    "question": "在 TWIBM 的組織架構中，「社區經理」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "人力資源部/管委會",
+        "main_topic": "人事管理",
+        "sub_topic": "社區經理",
+        "detailed_description": [
+          "主要職掌：每日批閱社區九大簿冊、重大修繕發包及驗收、執行住戶及管委會交辦事項、年度管理工作計劃制定",
+          "證照要求：事務管理證照、設備安全證照、防火管理證照"
+        ],
+        "original_evidence": "壹、社區經理...一、任用專業證照資格：領有中央政府之許可證照者(事務、設備、防火)...二、工作職掌：(1)每日批閱社區九大簿冊...(5)重大修繕發包及驗收...(15)年度管理工作計劃制定。",
+        "predicted_questions": [
+          "社區經理的考核標準是什麼？",
+          "如何應徵社區經理？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "社區經理"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0389",
+    "question": "在 TWIBM 的組織架構中，「迎賓哨保全」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "保全組/安管中心",
+        "main_topic": "人事管理",
+        "sub_topic": "迎賓哨保全",
+        "detailed_description": [
+          "主要職掌：大廳前廊警戒、來訪賓客身份辨識、貴賓車輛迎賓服務、行李提送服務",
+          "證照要求：保全護照"
+        ],
+        "original_evidence": "參、迎賓哨...工作職掌：(1)負責大廳前廊警戒與大廳出入口處來訪賓客身份辨識。(2)協助貴賓車輛之停放...(6)負責貴賓進入社區之行李提送服務。",
+        "predicted_questions": [
+          "迎賓哨保全的考核標準是什麼？",
+          "如何應徵迎賓哨保全？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0737",
+    "question": "在 TWIBM 的組織架構中，「迎賓哨保全」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "保全組/安管中心",
+        "main_topic": "人事管理",
+        "sub_topic": "迎賓哨保全",
+        "detailed_description": [
+          "主要職掌：大廳前廊警戒、來訪賓客身份辨識、貴賓車輛迎賓服務、行李提送服務",
+          "證照要求：保全護照"
+        ],
+        "original_evidence": "參、迎賓哨...工作職掌：(1)負責大廳前廊警戒與大廳出入口處來訪賓客身份辨識。(2)協助貴賓車輛之停放...(6)負責貴賓進入社區之行李提送服務。",
+        "predicted_questions": [
+          "迎賓哨保全的考核標準是什麼？",
+          "如何應徵迎賓哨保全？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0005",
+    "question": "在 TWIBM 的組織架構中，「迎賓哨保全」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "保全組/安管中心",
+        "main_topic": "人事管理",
+        "sub_topic": "迎賓哨保全",
+        "detailed_description": [
+          "主要職掌：大廳前廊警戒、來訪賓客身份辨識、貴賓車輛迎賓服務、行李提送服務",
+          "證照要求：保全護照"
+        ],
+        "original_evidence": "參、迎賓哨...工作職掌：(1)負責大廳前廊警戒與大廳出入口處來訪賓客身份辨識。(2)協助貴賓車輛之停放...(6)負責貴賓進入社區之行李提送服務。",
+        "predicted_questions": [
+          "迎賓哨保全的考核標準是什麼？",
+          "如何應徵迎賓哨保全？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0881",
+    "question": "在 TWIBM 的組織架構中，「迎賓哨保全」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "保全組/安管中心",
+        "main_topic": "人事管理",
+        "sub_topic": "迎賓哨保全",
+        "detailed_description": [
+          "主要職掌：大廳前廊警戒、來訪賓客身份辨識、貴賓車輛迎賓服務、行李提送服務",
+          "證照要求：保全護照"
+        ],
+        "original_evidence": "參、迎賓哨...工作職掌：(1)負責大廳前廊警戒與大廳出入口處來訪賓客身份辨識。(2)協助貴賓車輛之停放...(6)負責貴賓進入社區之行李提送服務。",
+        "predicted_questions": [
+          "迎賓哨保全的考核標準是什麼？",
+          "如何應徵迎賓哨保全？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0989",
+    "question": "在 TWIBM 的組織架構中，「迎賓哨保全」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "保全組/安管中心",
+        "main_topic": "人事管理",
+        "sub_topic": "迎賓哨保全",
+        "detailed_description": [
+          "主要職掌：大廳前廊警戒、來訪賓客身份辨識、貴賓車輛迎賓服務、行李提送服務",
+          "證照要求：保全護照"
+        ],
+        "original_evidence": "參、迎賓哨...工作職掌：(1)負責大廳前廊警戒與大廳出入口處來訪賓客身份辨識。(2)協助貴賓車輛之停放...(6)負責貴賓進入社區之行李提送服務。",
+        "predicted_questions": [
+          "迎賓哨保全的考核標準是什麼？",
+          "如何應徵迎賓哨保全？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0713",
+    "question": "在 TWIBM 的組織架構中，「迎賓哨保全」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "保全組/安管中心",
+        "main_topic": "人事管理",
+        "sub_topic": "迎賓哨保全",
+        "detailed_description": [
+          "主要職掌：大廳前廊警戒、來訪賓客身份辨識、貴賓車輛迎賓服務、行李提送服務",
+          "證照要求：保全護照"
+        ],
+        "original_evidence": "參、迎賓哨...工作職掌：(1)負責大廳前廊警戒與大廳出入口處來訪賓客身份辨識。(2)協助貴賓車輛之停放...(6)負責貴賓進入社區之行李提送服務。",
+        "predicted_questions": [
+          "迎賓哨保全的考核標準是什麼？",
+          "如何應徵迎賓哨保全？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0509",
+    "question": "在 TWIBM 的組織架構中，「迎賓哨保全」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "保全組/安管中心",
+        "main_topic": "人事管理",
+        "sub_topic": "迎賓哨保全",
+        "detailed_description": [
+          "主要職掌：大廳前廊警戒、來訪賓客身份辨識、貴賓車輛迎賓服務、行李提送服務",
+          "證照要求：保全護照"
+        ],
+        "original_evidence": "參、迎賓哨...工作職掌：(1)負責大廳前廊警戒與大廳出入口處來訪賓客身份辨識。(2)協助貴賓車輛之停放...(6)負責貴賓進入社區之行李提送服務。",
+        "predicted_questions": [
+          "迎賓哨保全的考核標準是什麼？",
+          "如何應徵迎賓哨保全？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "迎賓哨保全"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0897",
+    "question": "在 TWIBM 的組織架構中，「吧台秘書」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "餐飲服務部",
+        "main_topic": "人事管理",
+        "sub_topic": "吧台秘書",
+        "detailed_description": [
+          "主要職掌：社區咖啡廳客服執行、進貨銷貨庫存管理、新菜單定期提出、使用情形統計公告",
+          "證照要求：餐飲相關經驗"
+        ],
+        "original_evidence": "陸、吧台秘書...工作職掌：社區咖啡廳之客服專業工作執行...社區咖啡廳之進貨、銷貨、與庫存管理...定期提出新菜單。",
+        "predicted_questions": [
+          "吧台秘書的考核標準是什麼？",
+          "如何應徵吧台秘書？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0753",
+    "question": "在 TWIBM 的組織架構中，「吧台秘書」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "餐飲服務部",
+        "main_topic": "人事管理",
+        "sub_topic": "吧台秘書",
+        "detailed_description": [
+          "主要職掌：社區咖啡廳客服執行、進貨銷貨庫存管理、新菜單定期提出、使用情形統計公告",
+          "證照要求：餐飲相關經驗"
+        ],
+        "original_evidence": "陸、吧台秘書...工作職掌：社區咖啡廳之客服專業工作執行...社區咖啡廳之進貨、銷貨、與庫存管理...定期提出新菜單。",
+        "predicted_questions": [
+          "吧台秘書的考核標準是什麼？",
+          "如何應徵吧台秘書？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0249",
+    "question": "在 TWIBM 的組織架構中，「吧台秘書」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "餐飲服務部",
+        "main_topic": "人事管理",
+        "sub_topic": "吧台秘書",
+        "detailed_description": [
+          "主要職掌：社區咖啡廳客服執行、進貨銷貨庫存管理、新菜單定期提出、使用情形統計公告",
+          "證照要求：餐飲相關經驗"
+        ],
+        "original_evidence": "陸、吧台秘書...工作職掌：社區咖啡廳之客服專業工作執行...社區咖啡廳之進貨、銷貨、與庫存管理...定期提出新菜單。",
+        "predicted_questions": [
+          "吧台秘書的考核標準是什麼？",
+          "如何應徵吧台秘書？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0669",
+    "question": "在 TWIBM 的組織架構中，「吧台秘書」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "餐飲服務部",
+        "main_topic": "人事管理",
+        "sub_topic": "吧台秘書",
+        "detailed_description": [
+          "主要職掌：社區咖啡廳客服執行、進貨銷貨庫存管理、新菜單定期提出、使用情形統計公告",
+          "證照要求：餐飲相關經驗"
+        ],
+        "original_evidence": "陸、吧台秘書...工作職掌：社區咖啡廳之客服專業工作執行...社區咖啡廳之進貨、銷貨、與庫存管理...定期提出新菜單。",
+        "predicted_questions": [
+          "吧台秘書的考核標準是什麼？",
+          "如何應徵吧台秘書？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0333",
+    "question": "在 TWIBM 的組織架構中，「吧台秘書」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "餐飲服務部",
+        "main_topic": "人事管理",
+        "sub_topic": "吧台秘書",
+        "detailed_description": [
+          "主要職掌：社區咖啡廳客服執行、進貨銷貨庫存管理、新菜單定期提出、使用情形統計公告",
+          "證照要求：餐飲相關經驗"
+        ],
+        "original_evidence": "陸、吧台秘書...工作職掌：社區咖啡廳之客服專業工作執行...社區咖啡廳之進貨、銷貨、與庫存管理...定期提出新菜單。",
+        "predicted_questions": [
+          "吧台秘書的考核標準是什麼？",
+          "如何應徵吧台秘書？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0729",
+    "question": "在 TWIBM 的組織架構中，「吧台秘書」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "餐飲服務部",
+        "main_topic": "人事管理",
+        "sub_topic": "吧台秘書",
+        "detailed_description": [
+          "主要職掌：社區咖啡廳客服執行、進貨銷貨庫存管理、新菜單定期提出、使用情形統計公告",
+          "證照要求：餐飲相關經驗"
+        ],
+        "original_evidence": "陸、吧台秘書...工作職掌：社區咖啡廳之客服專業工作執行...社區咖啡廳之進貨、銷貨、與庫存管理...定期提出新菜單。",
+        "predicted_questions": [
+          "吧台秘書的考核標準是什麼？",
+          "如何應徵吧台秘書？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  },
+  {
+    "id": "Q0825",
+    "question": "在 TWIBM 的組織架構中，「吧台秘書」的主要工作職掌為何？擔任此職務需要具備哪些專業證照？",
+    "expected": {
+      "answer_example": {
+        "target_audience": "餐飲服務部",
+        "main_topic": "人事管理",
+        "sub_topic": "吧台秘書",
+        "detailed_description": [
+          "主要職掌：社區咖啡廳客服執行、進貨銷貨庫存管理、新菜單定期提出、使用情形統計公告",
+          "證照要求：餐飲相關經驗"
+        ],
+        "original_evidence": "陸、吧台秘書...工作職掌：社區咖啡廳之客服專業工作執行...社區咖啡廳之進貨、銷貨、與庫存管理...定期提出新菜單。",
+        "predicted_questions": [
+          "吧台秘書的考核標準是什麼？",
+          "如何應徵吧台秘書？"
+        ]
+      },
+      "source_map": [
+        {
+          "part": "detailed_description",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書",
+                "職掌",
+                "處置"
+              ]
+            }
+          ]
+        },
+        {
+          "part": "original_evidence",
+          "refs": [
+            {
+              "file": "00_13_設施管理人事訓練作業辦法_附件.doc",
+              "page": 1,
+              "anchors": [
+                "吧台秘書"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "grading": {
+      "coverage_weight": 0.45,
+      "grounding_weight": 0.35,
+      "conciseness_weight": 0.2
+    }
+  }
+]

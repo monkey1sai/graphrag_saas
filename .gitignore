@@ -1,0 +1,88 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.dist/
+build/
+*.egg-info/
+
+# --- Virtualenvs / local tooling ---
+.venv/
+venv/
+.env
+.env.*
+
+# --- OS/editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+
+# --- Repo meta (not required for runtime) ---
+.agent/
+.github/skills/
+docs/ai_journal/
+
+# --- Local caches / model caches ---
+**/.cache/
+**/.cache/**
+**/.ipynb_checkpoints/
+
+# HuggingFace cache (very large)
+**/.cache/huggingface/**
+
+# --- Project-generated data (reproducible) ---
+RAG_DATA/
+
+# Backend indexes / jobs are rebuildable and can be huge
+graphrag_saas/backend/data/index/
+graphrag_saas/backend/data/index_twibm/
+graphrag_saas/backend/data/jobs/
+graphrag_saas/backend/data/jobs.json
+
+# Default: ignore all reports (we'll whitelist a few important ones below)
+graphrag_saas/backend/reports/**
+
+# Whitelist: keep the chosen "best" adapters + summaries
+!graphrag_saas/backend/reports/
+!graphrag_saas/backend/reports/train_20260205T015838743819Z_sft_adapter/
+!graphrag_saas/backend/reports/train_20260205T015838743819Z_sft_adapter/**
+!graphrag_saas/backend/reports/train_20260205T015838743819Z_summary.json
+
+!graphrag_saas/backend/reports/train_20260204T082302645867Z_adapter/
+!graphrag_saas/backend/reports/train_20260204T082302645867Z_adapter/**
+!graphrag_saas/backend/reports/train_20260204T082302645867Z_rl_summary.json
+!graphrag_saas/backend/reports/train_20260204T082302645867Z_rl_metrics.jsonl
+
+# Whitelist: keep the final dev100 eval report artifacts (but not raw dumps)
+!graphrag_saas/backend/reports/evals/
+!graphrag_saas/backend/reports/evals/dev100_run4_p8_repair_short_tok512_raw_full/
+!graphrag_saas/backend/reports/evals/dev100_run4_p8_repair_short_tok512_raw_full/report.md
+!graphrag_saas/backend/reports/evals/dev100_run4_p8_repair_short_tok512_raw_full/breakdown.json
+!graphrag_saas/backend/reports/evals/dev100_run4_p8_repair_short_tok512_raw_full/metrics.json
+!graphrag_saas/backend/reports/evals/dev100_run4_p8_repair_short_tok512_raw_full/metrics.rescored.json
+
+# --- Temporary working dirs ---
+tmpclaude-*
+tmpclaude-*/
+**/tmpclaude-*
+**/tmpclaude-*/
+
+# --- Large/raw source docs (keep Markdown plans instead) ---
+/*.xlsx
+/*.docx
+
+(AI學習資料)TWIBM_RAG.xlsx
+Deep\ GraphRAG\ DW‑GRPO\ 微調實現計畫與整合方案.docx
+
+# --- Build logs / local outputs ---
+build.log
+build_output.txt
+
+# --- Assistant-specific tooling (not required to run the app) ---
+.claude/

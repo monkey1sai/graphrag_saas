@@ -1,0 +1,39 @@
+# docker-compose.unsloth.yml
+# IRS (Iterative Rejection Sampling) 模式 compose override
+# 適用於 RTX 4060 8GB VRAM + 64GB RAM 配置
+#
+# 使用方式：
+#   docker compose -f docker-compose.yml -f docker-compose.unsloth.yml up -d --build backend
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.unsloth
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    environment:
+      # IRS/Unsloth 模式標識
+      - BACKEND_MODE=IRS_UNSLOTH
+      # 強制 Reward Scoring 在 CPU 執行（保留 GPU 給 LLM）
+      - REWARD_DEVICE=cpu
+      # Ensure HF/Transformers caches live on the bind-mounted workspace folder
+      - HF_HOME=/root/.cache/huggingface
+      - HF_HUB_CACHE=/root/.cache/huggingface/hub
+      - TRANSFORMERS_CACHE=/root/.cache/huggingface/hub
+      # GPU 設定
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      # Hugging Face 加速下載
+      - HF_HUB_ENABLE_HF_TRANSFER=1
+      # IRS Scorer（預設 model-based；smoke test 可設為 heuristic 以避免首次下載大型 scorer 模型）
+      - DWGRPO_SCORER=${DWGRPO_SCORER:-model}
+      # Teacher 設定（可覆寫）
+      - TEACHER_PROVIDER=${TEACHER_PROVIDER:-local}
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-rnj-1}

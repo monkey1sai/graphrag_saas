@@ -1,0 +1,320 @@
+{
+  "models": [
+    {
+      "id": "652f9e83-64c1-4058-babb-2f14852b3363",
+      "stage": "RL",
+      "job_id": "20260204T082302645867Z",
+      "created_at": "2026-02-04T08:23:16.250321+00:00",
+      "base_model": "sshleifer/tiny-gpt2",
+      "artifacts": {
+        "rl_summary_path": "/app/reports/train_20260204T082302645867Z_rl_summary.json",
+        "adapter_path": "/app/reports/train_20260204T082302645867Z_adapter",
+        "rl_metrics_path": "/app/reports/train_20260204T082302645867Z_rl_metrics.jsonl",
+        "rl_summary_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T082302645867Z_rl_summary.json",
+        "adapter_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T082302645867Z_adapter",
+        "rl_metrics_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T082302645867Z_rl_metrics.jsonl"
+      },
+      "metrics": {
+        "final_avg_reward": 0.6407597481196088,
+        "steps": 1,
+        "anti_cheat": {
+          "min_response_tokens": 8,
+          "degradation_drop_ratio": 0.3,
+          "degradation_patience": 2,
+          "stop_on_degradation": false
+        }
+      },
+      "runtime": {
+        "torch": "2.10.0+cpu",
+        "cuda_available": false,
+        "torch_cuda": null,
+        "use_4bit_requested": false,
+        "bitsandbytes": null,
+        "bitsandbytes_import_ok": false,
+        "bitsandbytes_error": "No module named 'bitsandbytes'"
+      },
+      "tags": [
+        "auto-registered"
+      ]
+    },
+    {
+      "id": "0e850b1d-10a7-4d10-a37d-163574a838e1",
+      "stage": "SFT",
+      "job_id": "20260204T123034135422Z",
+      "created_at": "2026-02-04T12:39:31.084758+00:00",
+      "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "artifacts": {
+        "sft_summary_path": "/app/reports/train_20260204T123034135422Z_summary.json",
+        "sft_dataset_path": "/app/reports/sft_dataset_20260204T123034135422Z.json",
+        "sft_adapter_path": "/app/reports/train_20260204T123034135422Z_sft_adapter",
+        "sft_summary_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T123034135422Z_summary.json",
+        "sft_dataset_path_workspace_hint": "graphrag_saas/backend/reports/sft_dataset_20260204T123034135422Z.json",
+        "sft_adapter_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T123034135422Z_sft_adapter"
+      },
+      "metrics": {
+        "steps": 8,
+        "final_loss": 2.6200718879699707,
+        "n_questions": 8,
+        "top_k": 5
+      },
+      "runtime": {
+        "torch": "2.2.2",
+        "cuda_available": true,
+        "use_4bit_requested": true,
+        "bitsandbytes": "0.43.3",
+        "bitsandbytes_import_ok": true
+      },
+      "tags": [
+        "auto-registered"
+      ]
+    },
+    {
+      "id": "e86678d8-1807-49e5-810e-be2a0b296ebc",
+      "stage": "SFT",
+      "job_id": "20260204T124407795682Z",
+      "created_at": "2026-02-04T12:46:14.963240+00:00",
+      "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "artifacts": {
+        "sft_summary_path": "/app/reports/train_20260204T124407795682Z_summary.json",
+        "sft_dataset_path": "/app/reports/sft_dataset_20260204T124407795682Z.json",
+        "sft_adapter_path": "/app/reports/train_20260204T124407795682Z_sft_adapter",
+        "sft_summary_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T124407795682Z_summary.json",
+        "sft_dataset_path_workspace_hint": "graphrag_saas/backend/reports/sft_dataset_20260204T124407795682Z.json",
+        "sft_adapter_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T124407795682Z_sft_adapter"
+      },
+      "metrics": {
+        "steps": 8,
+        "final_loss": 2.851208209991455,
+        "n_questions": 8,
+        "top_k": 5
+      },
+      "runtime": {
+        "torch": "2.2.2",
+        "cuda_available": true,
+        "use_4bit_requested": true,
+        "bitsandbytes": "0.43.3",
+        "bitsandbytes_import_ok": true
+      },
+      "tags": [
+        "auto-registered"
+      ]
+    },
+    {
+      "id": "0e7f653f-5c83-4749-99b9-56e3bd452893",
+      "stage": "SFT",
+      "job_id": "20260204T125333397499Z",
+      "created_at": "2026-02-04T12:54:39.098738+00:00",
+      "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "artifacts": {
+        "sft_summary_path": "/app/reports/train_20260204T125333397499Z_summary.json",
+        "sft_dataset_path": "/app/reports/sft_dataset_20260204T125333397499Z.json",
+        "sft_adapter_path": "",
+        "sft_summary_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T125333397499Z_summary.json",
+        "sft_dataset_path_workspace_hint": "graphrag_saas/backend/reports/sft_dataset_20260204T125333397499Z.json"
+      },
+      "metrics": {
+        "steps": 0,
+        "final_loss": null,
+        "n_questions": 8,
+        "top_k": 5
+      },
+      "runtime": {},
+      "tags": [
+        "auto-registered"
+      ]
+    },
+    {
+      "id": "e3194c6a-3cba-48af-9c29-1b56d7d383a5",
+      "stage": "SFT",
+      "job_id": "20260204T125502285824Z",
+      "created_at": "2026-02-04T12:57:50.585709+00:00",
+      "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "artifacts": {
+        "sft_summary_path": "/app/reports/train_20260204T125502285824Z_summary.json",
+        "sft_dataset_path": "/app/reports/sft_dataset_20260204T125502285824Z.json",
+        "sft_adapter_path": "",
+        "sft_summary_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T125502285824Z_summary.json",
+        "sft_dataset_path_workspace_hint": "graphrag_saas/backend/reports/sft_dataset_20260204T125502285824Z.json"
+      },
+      "metrics": {
+        "steps": 0,
+        "final_loss": null,
+        "n_questions": 8,
+        "top_k": 5
+      },
+      "runtime": {},
+      "tags": [
+        "auto-registered"
+      ]
+    },
+    {
+      "id": "baa38039-54c9-4285-ba66-7a62ce04ab0c",
+      "stage": "SFT",
+      "job_id": "20260204T130147381587Z",
+      "created_at": "2026-02-04T13:04:14.333871+00:00",
+      "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "artifacts": {
+        "sft_summary_path": "/app/reports/train_20260204T130147381587Z_summary.json",
+        "sft_dataset_path": "/app/reports/sft_dataset_20260204T130147381587Z.json",
+        "sft_adapter_path": "/app/reports/train_20260204T130147381587Z_sft_adapter",
+        "sft_summary_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T130147381587Z_summary.json",
+        "sft_dataset_path_workspace_hint": "graphrag_saas/backend/reports/sft_dataset_20260204T130147381587Z.json",
+        "sft_adapter_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T130147381587Z_sft_adapter",
+        "gate_last_eval_dir": "/app/reports/evals/gate_20260204T130147381587Z",
+        "gate_last_eval_metrics": "/app/reports/evals/gate_20260204T130147381587Z/metrics.json",
+        "gate_last_eval_report": "/app/reports/evals/gate_20260204T130147381587Z/report.md",
+        "gate_last_eval_dir_workspace_hint": "graphrag_saas/backend/reports/evals/gate_20260204T130147381587Z",
+        "gate_last_eval_metrics_workspace_hint": "graphrag_saas/backend/reports/evals/gate_20260204T130147381587Z/metrics.json",
+        "gate_last_eval_report_workspace_hint": "graphrag_saas/backend/reports/evals/gate_20260204T130147381587Z/report.md"
+      },
+      "metrics": {
+        "steps": 20,
+        "final_loss": 1.0269732475280762,
+        "n_questions": 8,
+        "top_k": 5,
+        "gate_eval_score_avg": 0.0,
+        "gate_schema_pass_rate": 0.4,
+        "gate_grounding_avg": 0.0,
+        "gate_eval_set_version": "_smoke_questions_5.json@ef310ae2f535",
+        "gate_prompt_version": "eval_json_v2@2026-02-04",
+        "gate_prompt_sha256": "b0c649d36d301005003f21994f71cf97bd2b05d859609f77a9745206159c4df5",
+        "gate_index_version": "82a4e3b2e0698931",
+        "gate_adapter_id": "baa38039-54c9-4285-ba66-7a62ce04ab0c"
+      },
+      "runtime": {
+        "torch": "2.2.2",
+        "cuda_available": true,
+        "use_4bit_requested": true,
+        "bitsandbytes": "0.43.3",
+        "bitsandbytes_import_ok": true
+      },
+      "tags": [
+        "auto-registered",
+        "evaluated"
+      ]
+    },
+    {
+      "id": "97d1769a-ca35-4d0d-ac59-e52075326971",
+      "stage": "SFT",
+      "job_id": "20260204T131745349385Z",
+      "created_at": "2026-02-04T13:19:38.408354+00:00",
+      "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "artifacts": {
+        "sft_summary_path": "/app/reports/train_20260204T131745349385Z_summary.json",
+        "sft_dataset_path": "/app/reports/sft_dataset_20260204T131745349385Z.json",
+        "sft_adapter_path": "/app/reports/train_20260204T131745349385Z_sft_adapter",
+        "sft_summary_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T131745349385Z_summary.json",
+        "sft_dataset_path_workspace_hint": "graphrag_saas/backend/reports/sft_dataset_20260204T131745349385Z.json",
+        "sft_adapter_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T131745349385Z_sft_adapter",
+        "gate_last_eval_dir": "/app/reports/evals/gate_20260204T131745349385Z",
+        "gate_last_eval_metrics": "/app/reports/evals/gate_20260204T131745349385Z/metrics.json",
+        "gate_last_eval_report": "/app/reports/evals/gate_20260204T131745349385Z/report.md",
+        "gate_last_eval_dir_workspace_hint": "graphrag_saas/backend/reports/evals/gate_20260204T131745349385Z",
+        "gate_last_eval_metrics_workspace_hint": "graphrag_saas/backend/reports/evals/gate_20260204T131745349385Z/metrics.json",
+        "gate_last_eval_report_workspace_hint": "graphrag_saas/backend/reports/evals/gate_20260204T131745349385Z/report.md"
+      },
+      "metrics": {
+        "steps": 20,
+        "final_loss": 0.3921249210834503,
+        "n_questions": 32,
+        "top_k": 5,
+        "gate_eval_score_avg": 0.0,
+        "gate_schema_pass_rate": 0.0,
+        "gate_grounding_avg": 0.0,
+        "gate_eval_set_version": "_smoke_questions_5.json@ef310ae2f535",
+        "gate_prompt_version": "eval_json_v2@2026-02-04",
+        "gate_prompt_sha256": "b0c649d36d301005003f21994f71cf97bd2b05d859609f77a9745206159c4df5",
+        "gate_index_version": "82a4e3b2e0698931",
+        "gate_adapter_id": "97d1769a-ca35-4d0d-ac59-e52075326971"
+      },
+      "runtime": {
+        "torch": "2.2.2",
+        "cuda_available": true,
+        "use_4bit_requested": true,
+        "bitsandbytes": "0.43.3",
+        "bitsandbytes_import_ok": true
+      },
+      "tags": [
+        "auto-registered",
+        "evaluated"
+      ]
+    },
+    {
+      "id": "0e134c42-6118-4538-b2f8-43eb6629260b",
+      "stage": "SFT",
+      "job_id": "20260204T133521877833Z",
+      "created_at": "2026-02-04T14:20:27.903958+00:00",
+      "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "artifacts": {
+        "sft_summary_path": "/app/reports/train_20260204T133521877833Z_summary.json",
+        "sft_dataset_path": "/app/reports/sft_dataset_20260204T133521877833Z.json",
+        "sft_adapter_path": "/app/reports/train_20260204T133521877833Z_sft_adapter",
+        "sft_summary_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T133521877833Z_summary.json",
+        "sft_dataset_path_workspace_hint": "graphrag_saas/backend/reports/sft_dataset_20260204T133521877833Z.json",
+        "sft_adapter_path_workspace_hint": "graphrag_saas/backend/reports/train_20260204T133521877833Z_sft_adapter",
+        "gate_last_eval_dir": "/app/reports/evals/gate_20260204T133521877833Z",
+        "gate_last_eval_metrics": "/app/reports/evals/gate_20260204T133521877833Z/metrics.json",
+        "gate_last_eval_report": "/app/reports/evals/gate_20260204T133521877833Z/report.md",
+        "gate_last_eval_dir_workspace_hint": "graphrag_saas/backend/reports/evals/gate_20260204T133521877833Z",
+        "gate_last_eval_metrics_workspace_hint": "graphrag_saas/backend/reports/evals/gate_20260204T133521877833Z/metrics.json",
+        "gate_last_eval_report_workspace_hint": "graphrag_saas/backend/reports/evals/gate_20260204T133521877833Z/report.md"
+      },
+      "metrics": {
+        "steps": 20,
+        "final_loss": 2.104046583175659,
+        "n_questions": 256,
+        "top_k": 5,
+        "gate_eval_score_avg": 2.36,
+        "gate_schema_pass_rate": 0.25,
+        "gate_grounding_avg": 0.0,
+        "gate_eval_set_version": "question_v2_dev100.json@7d45f7b4493d",
+        "gate_prompt_version": "eval_json_v2@2026-02-04",
+        "gate_prompt_sha256": "b0c649d36d301005003f21994f71cf97bd2b05d859609f77a9745206159c4df5",
+        "gate_index_version": "82a4e3b2e0698931",
+        "gate_adapter_id": "0e134c42-6118-4538-b2f8-43eb6629260b"
+      },
+      "runtime": {
+        "torch": "2.2.2",
+        "cuda_available": true,
+        "use_4bit_requested": true,
+        "bitsandbytes": "0.43.3",
+        "bitsandbytes_import_ok": true
+      },
+      "tags": [
+        "auto-registered",
+        "evaluated"
+      ]
+    },
+    {
+      "id": "c664e7bc-8fb8-45e4-9987-acd02db8093c",
+      "stage": "SFT",
+      "job_id": "20260205T015838743819Z",
+      "created_at": "2026-02-05T02:23:45.342728+00:00",
+      "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "artifacts": {
+        "sft_summary_path": "/app/reports/train_20260205T015838743819Z_summary.json",
+        "sft_dataset_path": "/app/reports/sft_dataset_20260205T015838743819Z.json",
+        "sft_adapter_path": "/app/reports/train_20260205T015838743819Z_sft_adapter",
+        "sft_summary_path_workspace_hint": "graphrag_saas/backend/reports/train_20260205T015838743819Z_summary.json",
+        "sft_dataset_path_workspace_hint": "graphrag_saas/backend/reports/sft_dataset_20260205T015838743819Z.json",
+        "sft_adapter_path_workspace_hint": "graphrag_saas/backend/reports/train_20260205T015838743819Z_sft_adapter"
+      },
+      "metrics": {
+        "steps": 400,
+        "final_loss": 0.00517305638641119,
+        "n_questions": 256,
+        "top_k": 5
+      },
+      "runtime": {
+        "torch": "2.2.2",
+        "cuda_available": true,
+        "use_4bit_requested": true,
+        "bitsandbytes": "0.43.3",
+        "bitsandbytes_import_ok": true
+      },
+      "tags": [
+        "auto-registered"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Optional RL dependencies (Phase 4)
+#
+# Notes:
+# - We intentionally pin to a TRL version that still supports the legacy PPOTrainer.step API,
+#   to keep our lightweight runner stable across environments.
+# - Keep transformers < 5 for compatibility with pinned TRL.
+
+transformers>=4.56,<5
+accelerate>=0.33,<1
+peft>=0.12,<1
+trl==0.11.4
+rich>=13
+
+# Reward models (Phase 4.2)
+sentence-transformers>=2.7,<4
+bert-score>=0.3.13
+
+# Optional (install manually in a compatible CUDA environment if you need 4-bit QLoRA):
+# bitsandbytes>=0.43

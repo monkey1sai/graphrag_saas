@@ -1,0 +1,28 @@
+{
+  "job_id": "20260204T082302645867Z",
+  "stage": "RL",
+  "model_id": "sshleifer/tiny-gpt2",
+  "steps": 1,
+  "final_avg_reward": 0.6407597481196088,
+  "weights": {
+    "w_rel": 0.4,
+    "w_faith": 0.3,
+    "w_conc": 0.3
+  },
+  "device": "cpu",
+  "runtime": {
+    "torch": "2.10.0+cpu",
+    "cuda_available": false,
+    "torch_cuda": null,
+    "use_4bit_requested": false,
+    "bitsandbytes": null,
+    "bitsandbytes_import_ok": false,
+    "bitsandbytes_error": "No module named 'bitsandbytes'"
+  },
+  "anti_cheat": {
+    "min_response_tokens": 8,
+    "degradation_drop_ratio": 0.3,
+    "degradation_patience": 2,
+    "stop_on_degradation": false
+  }
+}

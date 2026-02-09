@@ -1,0 +1,8 @@
+{
+  "xlsx": "(AI學習資料)TWIBM_RAG.xlsx",
+  "row_count": 36,
+  "record_docs_dir": "graphrag_saas\\backend\\data\\twibm_rag\\twibm_rag_dataset",
+  "records_jsonl": "graphrag_saas\\backend\\data\\twibm_rag\\twibm_rag_records.jsonl",
+  "questions_json": "docs\\questions_twibm_structured_v1.json",
+  "question_count": 113
+}

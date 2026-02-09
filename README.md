@@ -1,0 +1,80 @@
+# GraphRAG SaaS（FastAPI + OCR Ingest + Benchmark + Train）
+
+本專案提供一個可部署的 GraphRAG 後端（FastAPI），支援：
+- 從資料夾匯入（DOCX/PDF/XLSX/圖片 OCR）→ chunking → 索引落盤
+- 查詢 API：以 `HierarchicalRetriever`（TF‑IDF + entity 層級過濾）檢索，交由 `WeightedIntegrator` 組合回答
+- Benchmark：自動生成題目並輸出評估報告（JSON/CSV）
+- Train：提供最小可跑的 SFT/RL（PPO/DW‑GRPO wiring）與 IRS（Iterative Rejection Sampling，Unsloth 模式）
+
+---
+
+## 專案結構
+
+- `graphrag_saas/`：Docker Compose 與後端專案
+  - `graphrag_saas/backend/app.py`：FastAPI 入口（/health、/ingest、/query、/benchmark、/api/train…）
+  - `graphrag_saas/backend/graphrag_platform/`：索引、檢索、整合、benchmark、訓練/IRS 等核心模組
+  - `graphrag_saas/docker-compose.yml`：CPU baseline（含 OCR tesseract）
+  - `graphrag_saas/docker-compose.gpu.yml`：GPU override（可選）
+  - `graphrag_saas/docker-compose.unsloth.yml`：Unsloth/IRS 模式（8GB VRAM 取向）
+- `RAG_DATA/`：主要資料集（多為圖片，需要 OCR）
+- `docs/`：任務追蹤與設計文件（例如 `docs/plans/2026-02-03-irs-design.md`）
+
+---
+
+## 快速啟動（Docker，建議）
+
+在 repo 根目錄執行：
+
+```powershell
+docker compose -f .\graphrag_saas\docker-compose.yml up -d --build
+```
+
+預設會：
+- 將 `RAG_DATA/` 以唯讀掛載到容器 `/data/RAG_DATA`
+- 將索引與報告落在 `graphrag_saas/backend/data/`、`graphrag_saas/backend/reports/`（可持久化）
+
+---
+
+## API（常用）
+
+服務預設埠：`http://localhost:8000`
+
+- `GET /health`：健康檢查
+- `POST /ingest`：匯入資料（非同步 job）
+- `GET /jobs/{job_id}`：查看任務狀態
+- `POST /query`：查詢（回傳 `answer` + `sources`）
+- `POST /benchmark`：跑 benchmark（輸出到 reports）
+- `POST /api/train`：訓練入口（stage=SFT/RL/IRS）
+- `GET /api/train/status/{job_id}`：訓練狀態
+- `POST /api/train/stop/{job_id}`：請求停止
+- `GET /api/train/{job_id}/metrics`、`GET /api/train/{job_id}/samples`：IRS 產物查詢
+
+---
+
+## 本機啟動（非 Docker）
+
+注意：OCR 需要本機可執行的 Tesseract（`tesseract.exe` 在 PATH）。
+
+```powershell
+cd .\graphrag_saas\backend
+
+# 安裝依賴（遵守專案規範：使用 uv + .venv）
+..\..\.venv\Scripts\python.exe -m uv pip install -r .\requirements.txt
+
+..\..\.venv\Scripts\python.exe -m uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+---
+
+## GPU / IRS（可選）
+
+- GPU 模式（override）：
+```powershell
+docker compose -f .\graphrag_saas\docker-compose.yml -f .\graphrag_saas\docker-compose.gpu.yml up -d --build
+```
+
+- Unsloth / IRS 模式（見設計文件 `docs/plans/2026-02-03-irs-design.md`）：
+```powershell
+docker compose -f .\graphrag_saas\docker-compose.yml -f .\graphrag_saas\docker-compose.unsloth.yml up -d --build
+```
+

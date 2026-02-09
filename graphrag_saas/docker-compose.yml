@@ -1,0 +1,58 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      args:
+        INSTALL_RL_DEPS: ${INSTALL_RL_DEPS:-0}
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/docs:/app/docs
+      - ./backend/data:/app/data
+      - ./backend/reports:/app/reports
+      # Eval assets + question sets (v1/v2) live in repo root ./docs
+      - ../docs:/app/eval_docs:ro
+      - ./.cache/huggingface:/root/.cache/huggingface
+      - ../RAG_DATA:/data/RAG_DATA:ro
+    environment:
+      - DATASET_PATH=/data/RAG_DATA
+      - INDEX_DIR=/app/data/index
+      - REPORT_DIR=/app/reports
+      # Ensure HF/Transformers caches live on the bind-mounted workspace folder
+      - HF_HOME=/root/.cache/huggingface
+      - HF_HUB_CACHE=/root/.cache/huggingface/hub
+      - TRANSFORMERS_CACHE=/root/.cache/huggingface/hub
+      # Teacher provider for SFT dataset generation (Phase 4.1)
+      # Teacher provider (remote Ollama)
+      - TEACHER_PROVIDER=${TEACHER_PROVIDER:-ollama}
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-http://192.168.20.235:11434}
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-qwen3:latest}
+      # Optional: supervised SFT from labeled question sets (e.g. /app/eval_docs/question_v1.json)
+      - SFT_SUPERVISED_QUESTIONS_PATH=${SFT_SUPERVISED_QUESTIONS_PATH:-}
+      - SFT_PROMPT_ASSET=${SFT_PROMPT_ASSET:-/app/eval_docs/prompts/eval_json_v2.md}
+    restart: always
+
+  prometheus:
+    image: prom/prometheus:v2.51.2
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    restart: always
+
+  node_exporter:
+    image: prom/node-exporter:v1.8.1
+    ports:
+      - "9100:9100"
+    # Windows Docker Desktop does not expose host /proc like Linux.
+    # Keep this optional; if it doesn't report host metrics on your setup,
+    # switch to a Windows exporter on the host or use WSL2 node_exporter.
+    restart: always
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:v0.49.1
+    ports:
+      - "8080:8080"
+    # NOTE: Full container visibility typically requires mounting host paths and Docker socket.
+    # We intentionally avoid docker.sock per security choice. Expect limited data on Docker Desktop.
+    restart: always

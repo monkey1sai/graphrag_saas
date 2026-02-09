@@ -1,0 +1,1 @@
+{"ts": 1770193396.2094839, "step": 1, "avg_reward": 0.6407597481196088, "best_avg_reward": 0.6407597481196088, "short_count": 0, "min_response_tokens": 8, "degraded": false, "degradation_bad_steps": 0, "degradation_drop_ratio": 0.3, "degradation_patience": 2}

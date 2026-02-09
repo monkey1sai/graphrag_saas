@@ -1,0 +1,32 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.gpu
+      args:
+        INSTALL_RL_DEPS: ${INSTALL_RL_DEPS:-0}
+        INSTALL_BNB: ${INSTALL_BNB:-1}
+    # Enable NVIDIA GPU passthrough (Docker Desktop/WSL2 needs NVIDIA Container Toolkit).
+    # Compose v2 validates strictly; use deploy.resources reservations for GPU.
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      # Ensure HF/Transformers caches live on the bind-mounted workspace folder
+      - HF_HOME=/root/.cache/huggingface
+      - HF_HUB_CACHE=/root/.cache/huggingface/hub
+      - TRANSFORMERS_CACHE=/root/.cache/huggingface/hub
+      - TEACHER_PROVIDER=${TEACHER_PROVIDER:-ollama}
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-http://192.168.20.235:11434}
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-qwen3:latest}
+      - SFT_SUPERVISED_QUESTIONS_PATH=${SFT_SUPERVISED_QUESTIONS_PATH:-}
+      - SFT_PROMPT_ASSET=${SFT_PROMPT_ASSET:-/app/eval_docs/prompts/eval_json_v2.md}
+    volumes:
+      # Eval assets + question sets (v1/v2) live in repo root ./docs
+      - ../docs:/app/eval_docs:ro

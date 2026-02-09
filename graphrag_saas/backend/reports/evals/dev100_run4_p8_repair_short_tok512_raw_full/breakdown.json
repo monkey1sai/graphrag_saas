@@ -1,0 +1,173 @@
+{
+  "run_dir": "D:\\智能客服助手\\graphrag_saas\\graphrag_saas\\backend\\reports\\evals\\dev100_run4_p8_repair_short_tok512_raw_full",
+  "metrics_path": "D:\\智能客服助手\\graphrag_saas\\graphrag_saas\\backend\\reports\\evals\\dev100_run4_p8_repair_short_tok512_raw_full\\metrics.rescored.json",
+  "per_item_path": "D:\\智能客服助手\\graphrag_saas\\graphrag_saas\\backend\\reports\\evals\\dev100_run4_p8_repair_short_tok512_raw_full\\per_item.rescored_flat.json",
+  "is_partial": false,
+  "question_count_expected": 100,
+  "provenance": {
+    "prompt_asset": "/app/eval_docs/prompts/eval_json_v2.md",
+    "prompt_version": "eval_json_v2@2026-02-06-p8",
+    "prompt_sha256": "193f476ebaeed207b167d2fd285bd1b8f884e4f9ece6c252327128fc60af90ae",
+    "effective_prompt_sha256": "3fc436eb511c4277e583fffc70a09ae707b369b2d9f8bfd90cc1c42cba571a20",
+    "index_dir": "/app/data/index",
+    "index_version": "82a4e3b2e0698931",
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "adapter_id": "train_20260205T015838743819Z_sft_adapter",
+    "adapter_path": "/app/reports/train_20260205T015838743819Z_sft_adapter",
+    "eval_set": "/app/eval_docs/eval_sets/question_v2_dev100.json",
+    "eval_set_version": "question_v2_dev100.json@7d45f7b4493d",
+    "retrieval": {
+      "top_k": 5,
+      "max_context_chars": 4000
+    },
+    "generation": {
+      "gate_mode": true,
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_new_tokens": 512
+    }
+  },
+  "overall": {
+    "count": 100,
+    "score": {
+      "mean": 64.47633,
+      "min": 48.667,
+      "max": 81.143,
+      "p50": 65.833,
+      "p90": 68.333,
+      "p95": 81.143
+    },
+    "repair_used": {
+      "count": 50,
+      "rate": 0.5
+    },
+    "fail_reason": {},
+    "primary_fail_reason": {
+      "parse_failed": 50
+    }
+  },
+  "subs": {
+    "detailed_description_f1": {
+      "mean": 0.406873,
+      "min": 0.0,
+      "max": 0.75,
+      "p50": 0.5,
+      "p90": 0.75,
+      "p95": 0.75
+    },
+    "detailed_description_precision": {
+      "mean": 0.345325,
+      "min": 0.0,
+      "max": 0.75,
+      "p50": 0.3333,
+      "p90": 0.75,
+      "p95": 0.75
+    },
+    "detailed_description_recall": {
+      "mean": 0.5625,
+      "min": 0.0,
+      "max": 1.0,
+      "p50": 0.75,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "grounding": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "grounding_ok_refs": {
+      "mean": 1.08,
+      "min": 1.0,
+      "max": 2.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "p95": 2.0
+    },
+    "grounding_total_refs": {
+      "mean": 1.08,
+      "min": 1.0,
+      "max": 2.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "p95": 2.0
+    },
+    "main_topic": {
+      "mean": 0.75,
+      "min": 0.0,
+      "max": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "original_evidence": {
+      "mean": 0.640011,
+      "min": 0.1667,
+      "max": 1.0,
+      "p50": 0.6667,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "predicted_questions_f1": {
+      "mean": 0.367,
+      "min": 0.0,
+      "max": 1.0,
+      "p50": 0.5,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "predicted_questions_precision": {
+      "mean": 0.361664,
+      "min": 0.0,
+      "max": 1.0,
+      "p50": 0.5,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "predicted_questions_recall": {
+      "mean": 0.375,
+      "min": 0.0,
+      "max": 1.0,
+      "p50": 0.5,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "sub_topic": {
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "p95": 1.0
+    },
+    "target_audience": {
+      "mean": 0.83,
+      "min": 0.0,
+      "max": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "p95": 1.0
+    }
+  },
+  "label_hits": {
+    "target_audience": {
+      "hits": 83,
+      "total": 100,
+      "rate": 0.83
+    },
+    "main_topic": {
+      "hits": 75,
+      "total": 100,
+      "rate": 0.75
+    },
+    "sub_topic": {
+      "hits": 100,
+      "total": 100,
+      "rate": 1.0
+    }
+  },
+  "grounding_zero_reasons": {}
+}

@@ -1,0 +1,41 @@
+{
+  "eval": {
+    "question_count": 100,
+    "schema_pass_rate": 1.0,
+    "eval_score_avg": 43.3,
+    "eval_score_p50": 42.5,
+    "eval_score_p95": 55.0,
+    "grounding_avg": 0.75,
+    "elapsed_s": 8397.35
+  },
+  "fail_counts": {
+    "ok": 100
+  },
+  "provenance": {
+    "prompt_asset": "/app/eval_docs/prompts/eval_json_v2.md",
+    "prompt_version": "eval_json_v2@2026-02-06-p8",
+    "prompt_sha256": "193f476ebaeed207b167d2fd285bd1b8f884e4f9ece6c252327128fc60af90ae",
+    "effective_prompt_sha256": "3fc436eb511c4277e583fffc70a09ae707b369b2d9f8bfd90cc1c42cba571a20",
+    "index_dir": "/app/data/index",
+    "index_version": "82a4e3b2e0698931",
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "adapter_id": "train_20260205T015838743819Z_sft_adapter",
+    "adapter_path": "/app/reports/train_20260205T015838743819Z_sft_adapter",
+    "eval_set": "/app/eval_docs/eval_sets/question_v2_dev100.json",
+    "eval_set_version": "question_v2_dev100.json@7d45f7b4493d",
+    "retrieval": {
+      "top_k": 5,
+      "max_context_chars": 4000
+    },
+    "generation": {
+      "gate_mode": true,
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_new_tokens": 512
+    }
+  },
+  "gate": {
+    "threshold": 95.0,
+    "passed": false
+  }
+}

@@ -1,0 +1,52 @@
+# Dockerfile.unsloth
+# IRS (Iterative Rejection Sampling) 環境：基於 Unsloth 官方映像
+# 適用於 RTX 4060 8GB VRAM + 64GB RAM 配置
+
+# 使用 Unsloth 官方預建映像（已包含 PyTorch, CUDA, Unsloth, Xformers）
+# 參考：https://hub.docker.com/r/unsloth/unsloth
+FROM unsloth/unsloth:latest
+
+# 切換到 root 安裝系統依賴
+USER root
+
+WORKDIR /app
+
+# 系統依賴：Tesseract OCR（用於 /ingest）
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    tesseract-ocr \
+    tesseract-ocr-chi-tra \
+    tesseract-ocr-eng \
+    && rm -rf /var/lib/apt/lists/*
+
+# 後端基礎依賴（FastAPI 等）
+# 過濾掉 transformers 版本，保留 Unsloth 預裝版本
+COPY requirements.txt .
+RUN grep -v "^transformers" requirements.txt > requirements-filtered.txt && \
+    pip install --no-cache-dir -r requirements-filtered.txt
+
+# CPU Reward Models 依賴（用於 DW-GRPO Scoring）
+# 注意：版本範圍需加引號避免 shell 解釋 < 為重定向
+RUN pip install --no-cache-dir \
+    "sentence-transformers>=2.7,<4" \
+    "bert-score>=0.3.13"
+
+# 複製應用程式碼
+COPY . .
+
+# 環境變數
+ENV BACKEND_MODE=IRS_UNSLOTH
+ENV REWARD_DEVICE=cpu
+ENV HF_HUB_ENABLE_HF_TRANSFER=1
+ENV PYTHONUNBUFFERED=1
+
+# Unsloth base image 可能有自帶 ENTRYPOINT（例如 supervisord/jupyter/sshd）。
+# 這會導致本 Dockerfile 的 CMD（uvicorn）不會被執行，造成 /health 無法連線。
+# 這裡顯式清空 ENTRYPOINT，確保容器啟動即跑 FastAPI。
+ENTRYPOINT []
+
+# 健康檢查
+HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
+    CMD python -c "import httpx; httpx.get('http://localhost:8000/health', timeout=5).raise_for_status()" || exit 1
+
+# 啟動 FastAPI
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
