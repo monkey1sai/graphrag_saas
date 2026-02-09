@@ -1,5 +1,7 @@
 # GraphRAG SaaS（FastAPI + OCR Ingest + Benchmark + Train）
 
+[![CI](https://github.com/monkey1sai/graphrag_saas/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/monkey1sai/graphrag_saas/actions/workflows/ci.yml)
+
 本專案提供一個可部署的 GraphRAG 後端（FastAPI），支援：
 - 從資料夾匯入（DOCX/PDF/XLSX/圖片 OCR）→ chunking → 索引落盤
 - 查詢 API：以 `HierarchicalRetriever`（TF‑IDF + entity 層級過濾）檢索，交由 `WeightedIntegrator` 組合回答
