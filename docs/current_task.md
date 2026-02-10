@@ -71,7 +71,11 @@
 				- **Prod Candidate**: ≥ 80
 		- 執行要求：固定 Prompt (`docs/prompts/eval_json_v2.md`), Index, Adapter. 開啟 `--repair-json 1`.
 		- 產物：`metrics.json`, `metrics.rescored.json`, `per_item.json`, `per_item.rescored_flat.jsonl`.
-		- **狀態 (2026-02-09)**: **RESUMING from Q16** (OOM/Container Exit). Partial data saved in `full1000_run1_repair_p10_tok512`. Need to resume from Q17.
+		- **狀態 (2026-02-10)**: **RESUMING** (935/1000 done).
+		- Run 1 (Legacy): 15 items (`full1000_run1_repair_p10_tok512`).
+		- Run 2 (Resume 1): 920 items (`full1000_run1_repair_p10_tok512_resume`).
+		- Missing: 65 questions (Q0936–Q1000) extracted to `question_v2_remaining_Q932_1000.json`.
+		- Action: Run `run_final69.bat` to finish the last 65, then `merge_full1000.py` to combine.
 	- [ ] 7.7 **Registry Auto-activate Strategy**
 		- 策略：
 			- **Prod**: 手動 Activate (Default).
@@ -90,10 +94,13 @@
 - 2026-02-09: Full 1000 run crashed at Q16. Retaining `full1000_status.log` and partial reports for resumption. Deleted `run_full1000.bat`.
 
 ## Handoff Note
-- **CRITICAL**: Full 1000 eval run failed at Q16. DO NOT restart from scratch.
-- **Action**: Create a script to resume evaluation from Q0017 using `question_v2.json` (need to slice or filter).
-- **Data**: Partial results in `graphrag_saas/backend/reports/evals/full1000_run1_repair_p10_tok512`.
-- **System**: Docker prune failed (daemon not reachable?), likely system instability. Rebooting.
+- **CRITICAL**: Full 1000 eval run is 93.5% complete (935/1000). 
+- **Missing**: Last 65 questions (Q0936–Q1000).
+- **Action**: 
+	1. Run `graphrag_saas/run_final69.bat` (Docker eval for last 65).
+	2. Run `python graphrag_saas/backend/scripts/merge_full1000.py` (Merge 3 partials).
+	3. Run `python graphrag_saas/backend/scripts/rescore_eval_run.py --run-dir full1000_merged`.
+- **System**: Docker backend container is UP. `monitor_eval.py` available for progress tracking.
 
 ### Phase 6（TWIBM 結構化資料）備註
 - 新增一個可重現的資料準備流程：把 XLSX 每列轉成「可 ingest 的 .md 文件」＋「可用於評估/訓練的 structured questions」。
