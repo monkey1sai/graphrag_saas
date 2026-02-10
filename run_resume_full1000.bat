@@ -1,0 +1,3 @@
+@echo off
+echo Starting Full 1000 Eval Resume from Q16 (flush-every=1)...
+docker compose -f graphrag_saas/docker-compose.yml -f graphrag_saas/docker-compose.gpu.yml run --rm backend python scripts/eval_json_v2.py --questions /app/eval_docs/eval_sets/question_v2_remaining_Q16_1000.json --out-dir /app/reports/evals/full1000_run1_repair_p10_tok512_resume --prompt-asset /app/eval_docs/prompts/eval_json_v2.md --llm-model Qwen/Qwen3-4B-Instruct-2507 --adapter-path /app/reports/train_20260205T015838743819Z_sft_adapter --adapter-id train_20260205T015838743819Z_sft_adapter --repair-json 1 --max-context-chars 9000 --top-k 5 --provider local --max-new-tokens 512 --index-dir /app/data/index --flush-every 1

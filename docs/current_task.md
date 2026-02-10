@@ -61,6 +61,25 @@
 	- [ ] 7.3 QLoRA SFT（use_4bit + LoRA）輸出 adapter 到 `reports/`，並在 registry 註冊 stage=SFT
 	- [ ] 7.4 （部署前）將 adapter merge 成完整模型資料夾，供 SGLang `--model-path` 使用
 	- [ ] 7.5 評估迭代（gate 100 題 → full 1000 題）：固定 eval prompt + 可重現打分 + registry 記錄
+	- [ ] 7.6 **[URGENT] Full 1000 Eval Run** (Benchmark Anchoring)
+		- 目標：使用當前最佳配置（Prompt v2 + Repair + Rescore）對 Full 1000 題進行定錨。
+		- Gate 標準（分層驗收）：
+			- **Format Gate (必過)**: `schema_pass_rate ≥ 0.99`, `invalid_json_or_shape = 0`, `placeholder_string = 0` (repair_used_rate ≤ 0.6 暫定).
+			- **Quality Gate (Rescored)**: `metrics.rescored.json['eval_score_avg']`.
+				- **Pass (Next Phase)**: ≥ 60
+				- **Staging Ready**: ≥ 70
+				- **Prod Candidate**: ≥ 80
+		- 執行要求：固定 Prompt (`docs/prompts/eval_json_v2.md`), Index, Adapter. 開啟 `--repair-json 1`.
+		- 產物：`metrics.json`, `metrics.rescored.json`, `per_item.json`, `per_item.rescored_flat.jsonl`.
+		- **狀態 (2026-02-09)**: **RESUMING from Q16** (OOM/Container Exit). Partial data saved in `full1000_run1_repair_p10_tok512`. Need to resume from Q17.
+	- [ ] 7.7 **Registry Auto-activate Strategy**
+		- 策略：
+			- **Prod**: 手動 Activate (Default).
+			- **Dev/Staging**: Auto-activate 若 `Job Succeeded` AND `Rescored Score ≥ Threshold` (e.g. 60).
+		- 實作：新增 Env `AUTO_ACTIVATE_ON_SUCCESS=1`, `AUTO_ACTIVATE_MIN_RESCORED=60`. 寫入 Registry Metadata.
+	- [ ] 7.8 **New Endpoint `/api/generate` (MVP)**
+		- 功能：純生成 (Inference only) 使用 Active Adapter.
+		- 目的：快速 Smoke Test 模型切換效果，不涉及 RAG 檢索流程。
 
 ## Context & Thoughts
 - init_at: 2026-02-02T09:59:25Z
@@ -68,6 +87,13 @@
 - docx 規格包含完整 DW‑GRPO 訓練與平台整合；本專案先落地 Plan B（可用、可評估、可部署），再逐步推進 SFT/RL。
 - Docker 內以 tesseract + chi-tra 語言包支援 OCR；Windows 本機若要直接跑 OCR 需自行安裝 Tesseract 並放入 PATH。
 - 2026-02-04：補上 repo 根目錄 `README.md`，整理專案結構與啟動方式，方便後續維護/交接。
+- 2026-02-09: Full 1000 run crashed at Q16. Retaining `full1000_status.log` and partial reports for resumption. Deleted `run_full1000.bat`.
+
+## Handoff Note
+- **CRITICAL**: Full 1000 eval run failed at Q16. DO NOT restart from scratch.
+- **Action**: Create a script to resume evaluation from Q0017 using `question_v2.json` (need to slice or filter).
+- **Data**: Partial results in `graphrag_saas/backend/reports/evals/full1000_run1_repair_p10_tok512`.
+- **System**: Docker prune failed (daemon not reachable?), likely system instability. Rebooting.
 
 ### Phase 6（TWIBM 結構化資料）備註
 - 新增一個可重現的資料準備流程：把 XLSX 每列轉成「可 ingest 的 .md 文件」＋「可用於評估/訓練的 structured questions」。

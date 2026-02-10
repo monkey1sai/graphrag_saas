@@ -1,0 +1,26 @@
+Starting Full 1000 Eval... 
+ Container graphrag_saas-backend-run-d3e1476b8b90 Creating 
+ Container graphrag_saas-backend-run-d3e1476b8b90 Created 
+/opt/conda/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:32<01:04, 32.03s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:05<00:32, 32.61s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 18.13s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 21.98s/it]
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[1/1000] Q0001 schema_ok=True score=55.667 latency_ms=25565 notes=
+[2/1000] Q0002 schema_ok=True score=63.333 latency_ms=38043 notes=
+[3/1000] Q0003 schema_ok=True score=58.571 latency_ms=35661 notes=
+[4/1000] Q0004 schema_ok=True score=52.667 latency_ms=32794 notes=
+[5/1000] Q0005 schema_ok=True score=38.333 latency_ms=28083 notes=
+[6/1000] Q0006 schema_ok=True score=60.476 latency_ms=44278 notes=
+[7/1000] Q0007 schema_ok=True score=58.571 latency_ms=40907 notes=
+[8/1000] Q0008 schema_ok=True score=52.667 latency_ms=32347 notes=
+[9/1000] Q0009 schema_ok=True score=38.333 latency_ms=32504 notes=
+[10/1000] Q0010 schema_ok=True score=70.0 latency_ms=37975 notes=
+[11/1000] Q0011 schema_ok=True score=58.571 latency_ms=36402 notes=
+[12/1000] Q0012 schema_ok=True score=52.667 latency_ms=29207 notes=
+[13/1000] Q0013 schema_ok=True score=55.667 latency_ms=27041 notes=
+[14/1000] Q0014 schema_ok=True score=63.333 latency_ms=37830 notes=
+[15/1000] Q0015 schema_ok=True score=58.571 latency_ms=35514 notes=
+[16/1000] Q0016 schema_ok=True score=52.667 latency_ms=29766 notes=
+time="2026-02-09T15:12:49+08:00" level=error msg="error waiting for container: unexpected EOF"
+
+Eval failed with error code 125 

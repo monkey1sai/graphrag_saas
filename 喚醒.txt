@@ -1,0 +1,11 @@
+
+  1. 確保環境就緒
+  重啟後，請先確認這兩個服務已啟動：
+   * Docker Desktop（因為剛剛它掛了，務必確認它燈號變綠）。
+   * Gemini CLI（進入 D:\智能客服助手\graphrag_saas 目錄）。
+
+  2. 下達「喚醒指令」
+  在新的 Gemini CLI Session 中，輸入這句話即可：
+
+
+  > 「請讀取 `docs/current_task.md` 與 `full1000_status.log`，並協助我斷點續跑（Resume）Full 1000 評估。」
